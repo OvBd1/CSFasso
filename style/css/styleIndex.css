@@ -138,8 +138,9 @@
 
 .messageDefilant {
   margin: auto;
-  display: inline-block;
+  display: block;
   width: 100%;
+  padding: 150px 0;
 }
 
 .messageDefilant img {
@@ -155,6 +156,7 @@
 
 .messageDefilant div span {
   left: 0;
+  display: inline-flex;
 }
 
 .messageDefilant div span:first-child {
