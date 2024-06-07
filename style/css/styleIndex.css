@@ -64,7 +64,7 @@
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #fff url(assets/svg/right.svg) center center no-repeat;
+  background: #fff url(../../assets/svg/right.svg) center center no-repeat;
   background-size: 20px 20px;
   border-radius: 50%;
   top: 50%;
@@ -83,7 +83,7 @@
 .carousel__prev {
   right: auto;
   left: -20px;
-  background-image: url(assets/svg/left.svg);
+  background-image: url(../../assets/svg/left.svg);
 }
 
 .carousel__pagination {
@@ -123,58 +123,57 @@
 /********** PARTENAIRES **********/
 
 .partenaire {
-  width: 95vw;
-  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #fff;
 }
 
 /********** Bandeau **********/
 
-@keyframes slide {
-  from {
-      transform: translateX(0);
-  }
-
-  to {
-      transform: translateX(-100%);
-  }
-}
-
-.logos {
-  overflow: hidden;
-  padding: 60px 0;
-  background: rgba(255, 255, 255, 0.75);
-  white-space: nowrap;
-  position: relative;
-}
-
-.logos:before,
-.logos:after {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.logos:before {
-  left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75));
-}
-
-.logos:after {
-  right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75));
-}
-
-.logos-slide {
+.messageDefilant {
+  margin: auto;
   display: inline-block;
-  animation: 35s slide infinite linear;
+  width: 100%;
 }
 
-.logos-slide img {
-  height: 100px;
-  margin: 0 40px;
+.messageDefilant img {
+  margin-right: 100px;
+}
+
+
+.messageDefilant div {
+  position: absolute;
+  transform: translateY(-50%);
+  min-width: 100%;
+}
+
+.messageDefilant div span {
+  left: 0;
+}
+
+.messageDefilant div span:first-child {
+  animation: defilement 20s linear infinite;
+}
+
+.messageDefilant div span:last-child {
+  position: absolute;
+  animation: defilement2 20s linear infinite;
+}
+
+@keyframes defilement {
+  0% { margin-left: 0; }
+  100% { margin-left: -100%; }
+}
+
+@keyframes defilement2 {
+  0% { margin-left: 100%; }
+  100% { margin-left: 0; }
 }
 
 /********** GALERIE **********/
