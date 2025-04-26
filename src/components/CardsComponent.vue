@@ -77,7 +77,7 @@ export default {
         title: "Loto 24 mai 2025",
         subtitle:
           "Un événement organisé par notre association pour financer les frais de transport d'un troisième container dans des écoles au Sénégal a lieu le 24 mai 2025 à Trappes",
-        imgSrc: "/images/evenements/2025/Loto2025.jpg",
+        imgSrc: "/images/evenements/2025/05/Loto2025.jpg",
         titleClass: "",
       },
       {
