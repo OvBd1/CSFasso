@@ -3,6 +3,21 @@
     <q-timeline color="secondary">
       <q-timeline-entry heading> Fil d'actualités </q-timeline-entry>
 
+      <q-timeline-entry heading> En 2025 </q-timeline-entry>
+
+      <q-timeline-entry
+        title="Loto solidaire et journée de solidarité à Trappes"
+        subtitle="24 mai 2025"
+      >
+        <div class="text-justify">
+          Une journée de solidarité a lieu le samedi 24 mai 2025 à la salle Jean Baptiste Clément à Trappes, 4 rue des Anciens Combattants.
+          Cet événement organisé par notre association pour financer les frais de transport d'un troisième container dans des écoles au Sénégal.
+          Elle permet aussi de communiquer sur les actions passées et futures de l'association dans un cadre convivial, fraternel et festif.
+        </div>
+
+      </q-timeline-entry>
+
+
       <q-timeline-entry heading> En 2024 </q-timeline-entry>
 
       <q-timeline-entry

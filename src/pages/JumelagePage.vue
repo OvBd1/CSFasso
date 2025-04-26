@@ -8,7 +8,7 @@
     <q-list>
       <div class="position">
         <q-img
-          src="../assets/tractopelle.png"
+          src="/images/tractopelle.png"
           style="max-width: 500px;"
           class="position"
         />

@@ -9,8 +9,20 @@
             <q-route-tab to="/histoire" label="Qui sommes nous" />
             <q-route-tab to="/actualites" label="Actualités" />
             <q-route-tab to="/contact" label="Nous Contacter" />
-            <q-route-tab to="/jumelage" label="Jumelage" />
-            <q-route-tab to="/video" label="Nos Videos" />
+            <!-- <q-route-tab to="/jumelage" label="Jumelage" /> -->
+            <q-route-tab to="/video-photo" label="Nos vidéos/photos" />
+
+            <q-space />
+            <a
+              href="https://www.youtube.com/@ContainersansfrontieresCSF"
+            >
+              <q-btn
+                rounded
+                color="primary"
+                icon="arrow_outward"
+                label="Voir nos vidéos"
+              ></q-btn>
+            </a>
 
             <q-space />
             <LoginComponent />

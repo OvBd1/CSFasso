@@ -3,9 +3,7 @@
     <q-list>
       <q-item class="column">
         <q-timeline>
-          <q-timeline-entry heading>
-            Contact de l'association CSF
-          </q-timeline-entry>
+          <q-timeline-entry heading>Contact de l'association CSF</q-timeline-entry>
 
           <q-timeline-entry title="Adresse mail de contact">
             <q-item

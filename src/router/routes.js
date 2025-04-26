@@ -28,7 +28,7 @@ const routes = [
     children: [{ path: "", component: () => import("pages/JumelagePage.vue") }],
   },
   {
-    path: "/video",
+    path: "/video-photo",
     component: () => import("layouts/MainLayout.vue"),
     children: [{ path: "", component: () => import("pages/VideosPhotos.vue") }],
   },

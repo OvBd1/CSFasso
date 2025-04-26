@@ -37,10 +37,10 @@ export default {
     return {
       // Liste mise à jour avec icônes et textes
       objectList: [
-        { icon: "https://upload.wikimedia.org/wikipedia/commons/9/94/Logo_Ville_de_Trappes_en_Yvelines.png", texte: "Trappes" },
-        { icon: "https://elancourt.fr/files/pages/modules/image/logo-elancourt-180.png", texte: "Elancourt" },
-        { icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cr%C3%A9dit_Mutuel_2022_logo.svg/langfr-280px-Cr%C3%A9dit_Mutuel_2022_logo.svg.png", texte: "Credit Mutuel" },
-        { icon: "https://www.yvelines.fr/wp-content/uploads/2015/04/LOGO-COOPERATION.png", texte: "Yvelines" },
+        { icon: "/images/partenaires/trappes.png", texte: "Trappes" },
+        { icon: "/images/partenaires/elancourt.png", texte: "Elancourt" },
+        { icon: "/images/partenaires/creditMutuel.png", texte: "Credit Mutuel" },
+        { icon: "/images/partenaires/ycid.png", texte: "Yvelines" },
       ],
       autoScrollInterval: null, // Variable pour stocker l'intervalle de l'autoscroll
     };

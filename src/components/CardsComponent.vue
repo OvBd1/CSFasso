@@ -34,13 +34,18 @@
       />
 
       <!-- Text content on top of the image -->
-      <div
-        class="absolute-bottom custom-caption"
-        style="margin: 50px; color: aliceblue; z-index: 1"
+      <a
+        :href="slideData.imgSrc"
+        target="_blank"
       >
-        <h4 class="text-h4">{{ slideData.title }}</h4>
-        <p class="text-p">{{ slideData.subtitle }}</p>
-      </div>
+        <div
+          class="absolute-bottom custom-caption"
+          style="margin: 50px; color: aliceblue; z-index: 1"
+        >
+          <h4 class="text-h4">{{ slideData.title }}</h4>
+          <p class="text-p">{{ slideData.subtitle }}</p>
+        </div>
+    </a>
 
       <!-- Optional overlay for additional contrast -->
       <div
@@ -69,6 +74,13 @@ export default {
   setup() {
     const slides = ref([
       {
+        title: "Loto 24 mai 2025",
+        subtitle:
+          "Un événement organisé par notre association pour financer les frais de transport d'un troisième container dans des écoles au Sénégal a lieu le 24 mai 2025 à Trappes",
+        imgSrc: "/images/evenements/2025/Loto2025.jpg",
+        titleClass: "",
+      },
+      {
         title: "Premier voyage du président de CSF au Sénégal",
         subtitle:
           "Christophe JEANMOUGIN, président et cofondateur de l'association Container Sans Frontières a effectué son tout premier voyage officiel au Sénégal du mardi 25 avril au samedi 6 Mai 2023.",
@@ -81,14 +93,6 @@ export default {
           "L'association Container Sans Frontières a l'honneur de vous présenter son tout nouveau site web. Il permettra de faire connaître les actions de l'association et de diffuser son actualité.",
         imgSrc:
           "https://leo-huynen.fr/wp-content/uploads/2018/04/nouveau-site-web-1000x675.jpg",
-        titleClass: "text-primary",
-      },
-      {
-        title: "Journée de solidarité à Trappes le dimanche 18 juin 2023",
-        subtitle:
-          "Le dimanche 18 juin de 12H00 à 19H30, l'association Container Sans Frontières organise une journée de solidarité destinée à recuillir des fonds pour financer ses activités et présenter les actions passées et futures.",
-        imgSrc:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GPXajUcR3_5otXslrj5NwNzJhEi0iZsxMg&s",
         titleClass: "text-primary",
       },
     ]);
