@@ -69,15 +69,26 @@
             <q-item-label>Nous Contacter</q-item-label>
           </q-item-section>
         </q-item>
-        <q-item clickable tag="a" href="#/jumelage">
+        <!-- <q-item clickable tag="a" href="#/jumelage">
           <q-item-section>
             <q-item-label>Jumelage</q-item-label>
           </q-item-section>
-        </q-item>
-        <q-item clickable tag="a" href="#/video">
+        </q-item> -->
+        <q-item clickable tag="a" href="#/video-photo">
           <q-item-section>
-            <q-item-label>Nos Videos</q-item-label>
+            <q-item-label>Nos Videos/Photos</q-item-label>
           </q-item-section>
+        </q-item>
+        <q-item>
+          <a href="https://www.youtube.com/@ContainersansfrontieresCSF">
+            <q-btn
+              color="primary"
+              icon="arrow_outward"
+              label="Voir nos vidéos"
+              class="full-width"
+            >
+            </q-btn
+          ></a>
         </q-item>
         <q-item>
           <a href="https://www.leetchi.com/fr/c/csf-container-sans-frontieres">
